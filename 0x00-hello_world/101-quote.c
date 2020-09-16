@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - output --> string
+* main - reveal --> string
 *
 * Return: 1 
 */
