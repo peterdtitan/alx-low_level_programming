@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* manin - Prints a string
+* main - Prints a string
 *
 * Description: Prints "with proper grammar, but the outcome is a piece of art"
 *
@@ -9,6 +9,6 @@
 */
 int main(void)
 {
-	printf("%s" , "with proper grammar, but the outcome is a piece of art,\n");
+	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
