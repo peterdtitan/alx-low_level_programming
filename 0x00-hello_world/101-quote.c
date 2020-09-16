@@ -2,7 +2,7 @@
 /**
 * main - reveal --> string
 *
-* Return: 1 
+* Return: 1
 */
 int main(void)
 {
