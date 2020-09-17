@@ -5,33 +5,44 @@
 */
 int main(void)
 {
-	int i, j, k, l;
+	int j = 0;
 
-	for (i = 48; i < 58; i++)
+	while (j <= 99)
 	{
-		for (j = i; j < 58; j++)
+		int i = j;
+
+		while (i <= 99)
 		{
-
-			for (k = j; k < 58; k++)
+			if (i != j)
 			{
-				for (l = k; l < 58; l++)
-				{
-					if (i == j == k == l)
-					{
-						continue;
-					}
-					putchar(i);
-					putchar(j);
-					putchar(' ');
-					putchar(k);
-					putchar(l);
+				int toPrint;
 
+				if (j >= 0 && j <= 9)
+					toPrint = 48;
+
+				else
+					toPrint = j / 10 + 48;
+
+				putchar(toPrint);
+				putchar(j % 10 + 48);
+				putchar(' ');
+				if (i >= 0 && i <= 9)
+					toPrint = 48;
+				else
+					toPrint = i / 10 + 48;
+
+				putchar(toPrint);
+				putchar(i % 10 + 48);
+				if (j * 100 + i != 9899)
+				{
 					putchar(',');
 					putchar(' ');
-
 				}
 			}
+			i++;
 		}
+		j++;
 	}
-	return (0);
+	putchar('\n');
+	return (1);
 }
