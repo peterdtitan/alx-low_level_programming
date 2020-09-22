@@ -1,1 +1,1 @@
-This is the next section of C dealing with functions and nested loops.
+This is a readme file for the functions and nested loops section of the c program.

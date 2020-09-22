@@ -20,6 +20,7 @@ int numLength(int num)
 		length += 1;
 	}
 
+
 	return length;
 }
 void putnchar(int num)
@@ -29,7 +30,7 @@ void putnchar(int num)
 		return ;
 	}
 	int length = numLength(num);
-	int j =length - 1;
+	int j = length - 1;
 	while (j >= 0)
 	{
 		//printf("tmp-->%i , char-->%i\n",tmp,tmp/powB(10,j)+48);
@@ -46,7 +47,7 @@ void putnchar(int num)
 		}
 		else
 		{
-			int digit1 = num /powB(10, j);
+			int digit1 = num / powB(10, j);
 			putchar(digit1 + 48);
 
 			int tmp2 = num;
@@ -59,9 +60,11 @@ void putnchar(int num)
 			j--;
 		}
 	}
+
 }
 void print_to_98(int n)
 {
+
 	int i,j;
 
 	if (n <= 98)
@@ -71,7 +74,7 @@ void print_to_98(int n)
 			if (i < 0)
 			{
 				putchar('-');
-				putchar(-1 * i);
+				putnchar(-1 * i);
 			}else
 			{
 				putnchar(i);
@@ -85,8 +88,8 @@ void print_to_98(int n)
 		for (i = n; i > 98; i--)
 		{
 			putnchar(i);
-			putnchar(',');
-			putnchar(' ');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar(48+9);
