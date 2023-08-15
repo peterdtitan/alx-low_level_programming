@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * jack_bauer - prints a 24 hour timer in military
  */
