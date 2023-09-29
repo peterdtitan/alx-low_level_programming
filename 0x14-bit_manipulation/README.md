@@ -3,9 +3,6 @@
 In this project, I learned how to manipulate bits and use the
 bitwise operators `>>`, `<<`, `&`, `|`, and `^` in C.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Helper File :raised_hands:
 
@@ -13,7 +10,7 @@ bitwise operators `>>`, `<<`, `&`, `|`, and `^` in C.
 
 ## Header File :file_folder:
 
-* [holberton.h](./holberton.h): Header file containing prototypes for all
+* [main.h](./main.h): Header file containing prototypes for all
 functions written in the project.
 
 | File                   | Prototype                                                           |
